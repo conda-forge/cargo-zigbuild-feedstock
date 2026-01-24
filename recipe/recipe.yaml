@@ -1,6 +1,6 @@
 context:
   name: cargo-zigbuild
-  version: "0.21.1"
+  version: "0.21.2"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/rust-cross/${{ name }}/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 91ba8a5018b4a9b46d4a2f03bada17d64f04dcd09869b32ac79adb3c85986ba6
+  sha256: 7e46e0c280659f5412eb797507c3b98936e1a775322d24e49afd6da9c4b0ca4d
 
 build:
   number: 0
